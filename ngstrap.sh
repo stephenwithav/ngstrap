@@ -12,7 +12,7 @@ setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
 };
 EOF
 
-npm install ng-mocks @testing-library/angular @testing-library/jest-dom jest-environment-jsdom eslint @angular/language-server --save-dev
+npm install ng-mocks @testing-library/angular @testing-library/jest-dom jest-environment-jsdom eslint @angular/language-service --save-dev
 
 cat <<EOF > setup-jest.js
 import '@testing-library/jest-dom';
